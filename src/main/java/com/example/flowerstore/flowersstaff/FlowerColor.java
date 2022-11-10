@@ -1,4 +1,4 @@
-package com.example.flowerstore;
+package com.example.flowerstore.flowersstaff;
 
 public enum FlowerColor {
     RED("#FF0000"), GREEN("00FF00"), BLUE("0000FF");

@@ -1,4 +1,4 @@
-package com.example.flowerstore;
+package com.example.flowerstore.payments;
 
 public class CreditCardPayment implements Payment{
     @Override

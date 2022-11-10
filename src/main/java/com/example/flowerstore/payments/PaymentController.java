@@ -1,4 +1,4 @@
-package com.example.flowerstore;
+package com.example.flowerstore.payments;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

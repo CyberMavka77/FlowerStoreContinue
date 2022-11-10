@@ -1,4 +1,4 @@
-package com.example.flowerstore;
+package com.example.flowerstore.flowersstaff;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -6,7 +6,7 @@ import lombok.Setter;
 
 
 @Getter @Setter @AllArgsConstructor
-public class Flower extends Item{
+public class Flower extends Item {
     private double sepalLength;
     private String color;
     private double price;

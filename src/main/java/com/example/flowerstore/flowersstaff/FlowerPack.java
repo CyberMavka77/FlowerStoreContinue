@@ -1,9 +1,9 @@
-package com.example.flowerstore;
+package com.example.flowerstore.flowersstaff;
 
 import lombok.AllArgsConstructor;
 
 @AllArgsConstructor
-public class FlowerPack extends Item{
+public class FlowerPack extends Item {
     private Flower flower;
     private int amount;
 

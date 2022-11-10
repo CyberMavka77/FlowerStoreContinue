@@ -1,4 +1,4 @@
-package com.example.flowerstore;
+package com.example.flowerstore.flowersstaff;
 
 public abstract class Item {
     protected String description;
