@@ -24,10 +24,6 @@ public class Flower extends Item {
         this.color = coloR.toString();
 
     }
-    public Flower(FlowerColor color, double price, double sepalLength) {
-        this.color = color.toString();
-        this.price = price;
-        this.sepalLength = sepalLength;
-    }
+
 
 }
