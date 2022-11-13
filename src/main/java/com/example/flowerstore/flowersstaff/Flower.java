@@ -13,15 +13,21 @@ import javax.persistence.Table;
 
 @Getter @Setter @AllArgsConstructor @Entity @Table @NoArgsConstructor
 public class Flower extends Item {
-    @Id @GeneratedValue
+    @Id
+    @GeneratedValue
     private int id;
-    private double sepalLength;
     private String color;
     private double price;
+    private double sepalLength;
 
     public void setColor(FlowerColor coloR) {
         this.color = coloR.toString();
 
+    }
+    public Flower(FlowerColor color, double price, double sepalLength) {
+        this.color = color.toString();
+        this.price = price;
+        this.sepalLength = sepalLength;
     }
 
 }
