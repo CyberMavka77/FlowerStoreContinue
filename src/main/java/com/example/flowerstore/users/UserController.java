@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping(path = "/api/v1/user")
+@RequestMapping( "/api/v1/user")
 public class UserController {
     private UserService userService;
 
@@ -24,8 +24,6 @@ public class UserController {
     @PostMapping
     public void addUser(@RequestBody MyUser user) {
         userService.addUser(user);
-
-
     }
 
 }

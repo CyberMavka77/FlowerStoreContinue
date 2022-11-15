@@ -1,5 +1,6 @@
 package com.example.flowerstore.users;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -7,6 +8,7 @@ import java.util.List;
 @Service
 public class UserService {
 
+    @Autowired
     private UserRepository userRepository;
 
     public List<MyUser> getUsers() {
@@ -14,8 +16,6 @@ public class UserService {
     }
 
     public void addUser(MyUser user) {
-        if (userRepository.findMyUserByEmail(user.getEmail()).isEmpty()) {
-            userRepository.save(user);
-        }
+        userRepository.save(user);
     }
 }
