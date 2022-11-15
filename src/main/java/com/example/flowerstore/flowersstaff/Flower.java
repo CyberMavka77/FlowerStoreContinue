@@ -16,14 +16,15 @@ public class Flower extends Item {
     @Id
     @GeneratedValue
     private int id;
+    private double sepalLength;
     private String color;
     private double price;
-    private double sepalLength;
 
-    public void setColor(FlowerColor coloR) {
-        this.color = coloR.toString();
 
-    }
+//    public void setColor(FlowerColor coloR) {
+//        this.color = coloR.toString();
+//
+//    }
 
 
 }
